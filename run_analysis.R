@@ -58,6 +58,3 @@ allDataSummary <- arrange(allDataSummary, allDataSummary$Subject, allDataSummary
 #write the dataframe to a txt file
 write.table(allDataSummary, file = "tidyresult.txt", row.names = FALSE)
 
-#
-library(knitr)
-knit2html("codebook.Rmd")
